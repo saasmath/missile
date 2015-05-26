@@ -1,0 +1,25 @@
+{
+  "name": "echo-missile",
+  "version": "0.0.1",
+  "description": "Amazon Echo app for controlling a missile launcher.",
+  "main": "app.js",
+  "dependencies": {
+    "node-hid": "^0.3.2",
+    "thunder-connector": "^0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github..com/isharajvanshi/missile"
+  },
+  "keywords": [
+    "echo",
+    "missile",
+    "raspberrypi"
+  ],
+  "author": "isharajvanshi",
+  "license": "MIT"
+}

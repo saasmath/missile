@@ -7,5 +7,5 @@ function turnLeftDegrees(degrees){
 	setTimeout(function(){ThunderConnector.command('left');},0);
 	setTimeout(function(){ThunderConnector.command('stop');},stopTime);
 }
-
-turnLeftDegrees(90);
+var degrees = process.argv[2] || 90;
+turnLeftDegrees(degrees);
