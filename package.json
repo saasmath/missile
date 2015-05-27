@@ -1,5 +1,5 @@
 {
-  "name": "echo-missile",
+  "name": "missile-keyboard",
   "version": "0.0.1",
   "description": "Amazon Echo app for controlling a missile launcher.",
   "main": "app.js",
