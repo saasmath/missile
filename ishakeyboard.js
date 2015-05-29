@@ -27,6 +27,18 @@ process.stdin.on('keypress', function (ch, key) {
   if (key.name == "f") {
     missile.Fire();
   }
+  if (key.name == "w" && key.shift == true) {
+    missile.turnUpDegrees(0.5);
+  }
+  if (key.name == "a" && key.shift == true) {
+    missile.turnLeftDegrees(0.5);
+  }
+  if (key.name == "s" && key.shift == true) {
+    missile.turnDownDegrees(0.5);
+  }
+  if (key.name == "d" && key.shift == true) {
+    missile.turnRightDegrees(0.5);
+  }
   if (key && key.ctrl && key.name == 'c') {
     process.stdin.pause();
   }
